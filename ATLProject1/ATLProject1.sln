@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ATLProject1", "ATLProject1\ATLProject1.vcxproj", "{25551C5D-F959-4592-8999-4E9E00221032}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ATLProject1PS", "ATLProject1\ATLProject1PS.vcxproj", "{6C08A7E2-4B3B-47D4-9037-0ADC2687F180}"
+	ProjectSection(ProjectDependencies) = postProject
+		{25551C5D-F959-4592-8999-4E9E00221032} = {25551C5D-F959-4592-8999-4E9E00221032}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25551C5D-F959-4592-8999-4E9E00221032}.Debug|x64.ActiveCfg = Debug|x64
+		{25551C5D-F959-4592-8999-4E9E00221032}.Debug|x64.Build.0 = Debug|x64
+		{25551C5D-F959-4592-8999-4E9E00221032}.Debug|x86.ActiveCfg = Debug|Win32
+		{25551C5D-F959-4592-8999-4E9E00221032}.Debug|x86.Build.0 = Debug|Win32
+		{25551C5D-F959-4592-8999-4E9E00221032}.Release|x64.ActiveCfg = Release|x64
+		{25551C5D-F959-4592-8999-4E9E00221032}.Release|x64.Build.0 = Release|x64
+		{25551C5D-F959-4592-8999-4E9E00221032}.Release|x86.ActiveCfg = Release|Win32
+		{25551C5D-F959-4592-8999-4E9E00221032}.Release|x86.Build.0 = Release|Win32
+		{6C08A7E2-4B3B-47D4-9037-0ADC2687F180}.Debug|x64.ActiveCfg = Debug|x64
+		{6C08A7E2-4B3B-47D4-9037-0ADC2687F180}.Debug|x86.ActiveCfg = Debug|Win32
+		{6C08A7E2-4B3B-47D4-9037-0ADC2687F180}.Release|x64.ActiveCfg = Release|x64
+		{6C08A7E2-4B3B-47D4-9037-0ADC2687F180}.Release|x86.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

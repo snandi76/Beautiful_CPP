@@ -1,0 +1,34 @@
+// ATLComApp.idl : IDL source for ATLComApp
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (ATLComApp.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(1D5E38B4-AC63-44A1-9C10-F2D1E40A4A75),
+	dual,
+	nonextensible,
+	pointer_default(unique)
+]
+interface IScoreCard : IDispatch{
+};
+[
+	uuid(234CB3A4-F116-4BBE-8847-A22912C0FD3E),
+	version(1.0),
+]
+library ATLComAppLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(ED9E8E18-4701-4C48-AC2C-FB370DAA6453)		
+	]
+	coclass ScoreCard
+	{
+		[default] interface IScoreCard;
+	};
+};
+
